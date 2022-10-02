@@ -1,6 +1,5 @@
 # Houseprice_prediction
 ###Software tools Requirements
-
 1. [GithubAcount](https://github.com)
 2. [HerokuAcount](https://heroku.com)
 3. [VScodeIDE](https://code.visualstudio.com/)
@@ -8,21 +7,52 @@
 
 5. create new environment
 
- conda create -p venv python==3.7 -y
-
-6. git config --global user.name "Archana Machhoya" 
-7. git config --global user.email  "archana.machhoya15@gmail.com" 
-8. Two steps are there for github repository file
+   ...
+   conda create -p venv python==3.7 -y
+   ...
+6. create requirement.txt file for all required library 
+7. Run requiremnet.txt file(install all library)
+   ...
+   pip install -r requiremnet.txt
+   ...
+8. set your mail id to github git cli
+   Assign User name and mail id
+   ...
+   git config --global user.name "Archana Machhoya" 
+   ...
+   ...
+   git config --global user.email  "archana.machhoya15@gmail.com" 
+   ...
+9. Two steps are there for github repository file
 1. add file in github 
 ==>if one perticular file wants to add or manually watns to add then use this comand "git add filename"
-ex= git add reuirements.txt
+...
+git add reuirements.txt
+...
 ==> if all file wants to add the use 
-    " git add . "
-==>check status for all file use ' git status'
+...
+git add . 
+...
+==>check status for all file use
+...
+git status
+ ...
 2. commit file with github(from local to git environment)
-==>'git commit -m "message"
+...
+git commit -m "message"
+...
 3. git push
-==> 'git puh origin main'
+...
+git puh origin main
+...
+10. create app.py file
+11. create html file
+12. Run app.py file
+...
+python app.py
+...
+13. Open with url
+14. 
    
 
 
