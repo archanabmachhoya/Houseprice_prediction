@@ -53,6 +53,7 @@ python app.py
 ...
 13. Open with url
 14. 
+pip freeze>requirements.txt
    
 
 
