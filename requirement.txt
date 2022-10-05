@@ -4,4 +4,3 @@ pandas
 numpy
 sklearn
 gunicorn
-python-3.10.7
