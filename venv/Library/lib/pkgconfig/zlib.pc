@@ -1,0 +1,13 @@
+prefix=D:/Archana1/DataScience_GTU/My_Project/End to End _House price prediction/Houseprice_prediction/venv/Library
+exec_prefix=D:/Archana1/DataScience_GTU/My_Project/End to End _House price prediction/Houseprice_prediction/venv/Library
+libdir=D:/Archana1/DataScience_GTU/My_Project/End to End _House price prediction/Houseprice_prediction/venv/Library/lib
+sharedlibdir=D:/Archana1/DataScience_GTU/My_Project/End to End _House price prediction/Houseprice_prediction/venv/Library/lib
+includedir=D:/Archana1/DataScience_GTU/My_Project/End to End _House price prediction/Houseprice_prediction/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
